@@ -81,7 +81,7 @@ img {
   }
 
   .container{
-    width: 419px;
+    min-width: 419px;
   }
 
   .row, .row .first, .row .second, .row .third{
@@ -108,6 +108,7 @@ img {
   #steps .row>.right {
   float: left;
   width: 100%;
+  margin-bottom: 1rem;
   }
 
   #lezioni .row>.left,
