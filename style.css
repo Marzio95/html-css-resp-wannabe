@@ -81,7 +81,6 @@ img {
     overflow-x: hidden;
   }
 
-  
   .row, .row .first, .row .second, .row .third{
     display: flex;
     flex-direction: column;
