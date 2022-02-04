@@ -78,7 +78,12 @@ img {
 
   body{
     margin: 0;
+    padding: 0;
     
+  }
+
+  body > div{
+    padding: 0 1rem;
   }
 
   .row, .row .first, .row .second, .row .third{
@@ -89,6 +94,7 @@ img {
     width: 100%;
     margin-top: 0;
     padding-bottom: 1rem;
+    
   }
 
   #lezioni{
@@ -113,5 +119,13 @@ img {
   width: 100%;
   float: left;
   }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+  width: 100%;
+  margin-top: 0px;
+  }
+
 }
 
